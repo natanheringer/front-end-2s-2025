@@ -1,49 +1,49 @@
-<html>
-    <!---
-    Atividade 3 - Página Principal
-     Informações sobre o curso e teconologias
-     link para a pagina "Sobre o autor" e "Contato"
-    --->
-    <head>
-        <meta charset = "UTF-8">
-        <title>
-            Curso de HTML - Curso Completo de HTML 5
-        </title>
-    </head>
-    <body>
-        <header>    
-        <h1 align = "center" color="">
-            Curso de HTML - Curso Completo de HTML 5
-        </h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Curso de HTML – Curso Completo de HTML 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="titulo-curso">Curso de HTML – Curso Completo de HTML 5</h1>
         </header>
-        
-        <section>
-            <nav>
-                <a href="about-me.html">Sobre o autor</a> | 
-                <a href="contact.html">Contato</a>
-            </nav>
-        </section>  
-        
-
-
-
-
-
-
-
-    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <nav>
+            <a href="about-me.html" class="nav-link">Sobre o autor</a>
+            <a href="contact.html" class="nav-link">Contato</a>
+            <a href="multimidia.html" class="nav-link">Multimídia</a>
+        </nav>
+        <main>
+            <section id="boas-vindas">
+                <h2>Seja bem-vindo ao curso de HTML!</h2>
+                <p>
+                    Estamos muito felizes em tê-lo(a) conosco nessa jornada de aprendizado. 
+                    Neste curso, você irá explorar os fundamentos da criação de páginas web, 
+                    aprenderá a estruturar conteúdo de forma eficiente e dará os primeiros 
+                    passos para se tornar um desenvolvedor web. Ao longo do caminho, 
+                    você vai entender como o HTML é a base de todas as páginas que você vê na internet.
+                </p>
+                <p>
+                    Prepare-se para praticar, experimentar e desenvolver habilidades essenciais 
+                    para sua carreira ou projetos pessoais. Estamos aqui para ajudar em cada passo, 
+                    então não hesite em tirar dúvidas e se envolver com o conteúdo!
+                </p>
+            </section>
+            <section id="tecnologias" class="tecnologias">
+                <h2>Tecnologias a serem trabalhadas</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Curso de HTML. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
 </html>
