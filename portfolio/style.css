@@ -1,0 +1,66 @@
+body{
+    font-family: Helvetica;
+    background-color:cornsilk;
+
+}
+
+.perfil{
+    text-align: center;
+    
+    
+    background-color:lightgrey;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    
+
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.mastercard{
+    margin-left: 500px;
+    
+}
+
+
+.estudante1{
+    background-color: aliceblue;
+    max-width:fit-content;
+    border-radius: 10px;
+    border-style: double;
+    margin-top: 20px;
+}
+
+.estudante2{
+    background-color: aliceblue;
+    max-width:fit-content;
+    margin-left: 200px;
+    margin-top: -266px;
+    border-radius: 10px;
+    border-style: double;
+
+    
+}
+
+a {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 0.10px 5px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+img{
+    margin-left: 25px;
+}
+
+h3{
+    text-align: center;
+}
