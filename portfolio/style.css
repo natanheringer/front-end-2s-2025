@@ -1,6 +1,6 @@
 body{
     font-family: Helvetica;
-    background-color:cornsilk;
+    background-color:#5EB2E6;
 
 }
 
@@ -8,7 +8,7 @@ body{
     text-align: center;
     
     
-    background-color:lightgrey;
+    background-color:#E5E25F;
     margin-top: 25px;
     margin-left: 200px;
     margin-right: 200px;
@@ -38,8 +38,8 @@ body{
 .estudante2{
     background-color: aliceblue;
     max-width:fit-content;
-    margin-left: 200px;
-    margin-top: -266px;
+    margin-left: 250px;
+    margin-top: -233px;
     border-radius: 10px;
     border-style: double;
 
@@ -47,8 +47,8 @@ body{
 }
 
 a {
-    background-color: blue;
-    color: white;
+    background-color: #E65E60;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 0.10px 5px;
     border-radius: 10px;
